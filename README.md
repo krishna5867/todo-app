@@ -26,11 +26,15 @@ Make sure you have the following installed on your machine:
    cd todo-app
 
 2. **Install dependencies**:
-npm install
+     ```bash
+     npm install
 
 
 3. **Run the development server**:
-npm start
+     ```bash
+     npm start
 
 
 This will launch the application in your default web browser. You can also access it by navigating to http://localhost:3000.
+
+**Live Demo**: [Visit the To-Do List Application](https://todo-app-iota-virid.vercel.app/)

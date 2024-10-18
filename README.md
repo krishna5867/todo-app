@@ -28,13 +28,11 @@ Make sure you have the following installed on your machine:
    cd todo-app
 
 2. **Install dependencies**:
-     ```bash
-    npm install
+npm install
 
 
 3. **Run the development server**:
-    ```bash
-    npm start
+npm start
 
 
 This will launch the application in your default web browser. You can also access it by navigating to http://localhost:3000.

@@ -10,6 +10,8 @@ This is a simple To-Do List web application built with React.js for functionalit
 - Show an alert message if a user tries to add an empty task.
 - Responsive design using Tailwind CSS.
 
+- visit https://todo-app-iota-virid.vercel.app/
+
 ## Prerequisites
 
 Make sure you have the following installed on your machine:
@@ -22,15 +24,19 @@ Make sure you have the following installed on your machine:
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/your-username/todo-app.git
+   git clone https://github.com/krishna5867/todo-app.git
    cd todo-app
 
 2. **Install dependencies**:
-npm install
+     ```bash
+    npm install
 
 
 3. **Run the development server**:
-npm start
+    ```bash
+    npm start
 
 
 This will launch the application in your default web browser. You can also access it by navigating to http://localhost:3000.
+
+**Live Demo**: [Visit the To-Do List Application](https://todo-app-iota-virid.vercel.app/)

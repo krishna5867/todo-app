@@ -1,11 +1,10 @@
 import './App.css';
-import TodoApp from './component/TodoApp';
+import { RouterProvider } from 'react-router-dom';
+import { router } from './component/Route';
 
 function App() {
   return (
-    <div className="App">
-      <TodoApp />
-    </div>
+    <RouterProvider router={router} />
   );
 }
 

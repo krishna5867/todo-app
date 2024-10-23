@@ -5,5 +5,6 @@ import Calculator from "./Calculator";
 import Products from "./Products";
 import ImgCarousels from "./ImgCarousels";
 import CounterApp from "./CounterApp";
+import FaqQustions from "./FaqQustions";
 
-export {Home, TodoApp, LoginForm, Calculator, Products, ImgCarousels, CounterApp};
+export {Home, TodoApp, LoginForm, Calculator, Products, ImgCarousels, CounterApp, FaqQustions};

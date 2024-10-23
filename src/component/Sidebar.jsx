@@ -1,16 +1,40 @@
 import React from 'react';
 import SidebarButton from './common/SidebarButton';
 
+const sidebarButtonElements = [
+  {
+    path: "/",
+    content: "Home"
+  },
+  {
+    path: "/todo",
+    content: "Todo App"
+  },
+  {
+    path: "/login",
+    content: "Login"
+  },
+  {
+    path: "/useFetch",
+    content: "useFetch Photos"
+  },
+  {
+    path: "/carousel",
+    content: "Carousel"
+  },
+  {
+    path: "/accordion",
+    content: "Accordion"
+  },
+]
 const Sidebar = () => {
   return (
     <div className='flex flex-col gap-y-4 bg-gray-100 p-4'>
-      <SidebarButton to="/">Home</SidebarButton>
-      <SidebarButton to="/todo">Todo App</SidebarButton>
-      <SidebarButton to="/login">Login</SidebarButton>
-      <SidebarButton to="/calculator">Calculator</SidebarButton>
-      <SidebarButton to="/useFetch">useFetch Photos</SidebarButton>
-      <SidebarButton to="/carousel">Carousel</SidebarButton>
-      <SidebarButton to="/counter">Counter App</SidebarButton>
+      {
+        sidebarButtonElements.map((item) => (
+          <SidebarButton key={item.path} to={item.path}>{item.content}</SidebarButton>
+        ))
+      }
     </div>
   );
 };

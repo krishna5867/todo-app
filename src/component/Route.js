@@ -1,5 +1,5 @@
 import { createBrowserRouter } from 'react-router-dom';
-import { Home, TodoApp, LoginForm, Calculator, Products, ImgCarousels, CounterApp } from "./Projects"
+import { Home, TodoApp, LoginForm, Calculator, Products, ImgCarousels, CounterApp, Accordion, FaqQustions } from "./Projects"
 
 export const router = createBrowserRouter([
   {
@@ -12,6 +12,7 @@ export const router = createBrowserRouter([
       { path: 'useFetch', element: < Products /> },
       { path: 'carousel', element: < ImgCarousels /> },
       { path: 'counter', element: < CounterApp /> },
+      { path: 'accordion', element: < FaqQustions /> },
 
     ],
   },
